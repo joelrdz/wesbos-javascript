@@ -1,3 +1,12 @@
+# From WesBos repo (some are repeated below)
+node_modules/
+.DS_Store
+haters/
+.cache/
+dist/
+
+# All the data below ow from Github's Node .gitignore template
+
 # Logs
 logs
 *.log
