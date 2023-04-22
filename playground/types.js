@@ -15,7 +15,11 @@ pizza`;
 
 // const hello = 'hello my name is ' + name + ". Nice to meet you";
 
-const hello = `hello my name is ${name}. Nice to meet you. I am ${1 + 99} years old`;
+// let hello2 = 'Hello my name is ';
+// hello2 = hello2 + name;
+// hello2 = hello2 + '. nice to meet you';
+
+const hello = `Hello my name is ${name}. Nice to meet you. I am ${1 + 99} years old.`;
 
 const html = `
   <div>
