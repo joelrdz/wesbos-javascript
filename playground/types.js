@@ -88,6 +88,7 @@ console.log(person.first); // 'Jon'
 console.log(person.age); // 30
 */
 
+/*
 let dog;
 console.log(dog); // undefined
 dog = 'snickers';
@@ -110,3 +111,22 @@ teller.last = null;
 
 console.log(cher.last); // undefined
 console.log(teller.last); // null
+*/
+
+const isDrawing = false;
+
+const age = 18;
+const ofAge = age > 19;
+console.log(ofAge); // false
+
+let time = 100;
+let time2 = 100;
+
+console.log(time === 100); // true
+console.log(time === 10); // false
+console.log(time === time2); // true
+
+console.log(10 === 10); // true
+console.log(10 == 10); // true
+console.log('10' == 10); // true
+console.log('10' === 10); // false
