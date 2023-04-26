@@ -32,6 +32,7 @@ const html = `
 document.body.innerHTML = html;
 */
 
+/*
 const age = 30.5;
 const name = 'jon';
 
@@ -74,3 +75,13 @@ console.log(typeof -Infinity); // number
 
 console.log(typeof 10 - 'dog'); // NaN
 console.log(typeof NaN); // Number
+*/
+
+const person = {
+  first: 'Jon',
+  last: 'Snow',
+  age: 30,
+};
+
+console.log(person.first); // 'Jon'
+console.log(person.age); // 30
