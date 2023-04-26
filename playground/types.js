@@ -77,6 +77,7 @@ console.log(typeof 10 - 'dog'); // NaN
 console.log(typeof NaN); // Number
 */
 
+/*
 const person = {
   first: 'Jon',
   last: 'Snow',
@@ -85,3 +86,27 @@ const person = {
 
 console.log(person.first); // 'Jon'
 console.log(person.age); // 30
+*/
+
+let dog;
+console.log(dog); // undefined
+dog = 'snickers';
+console.log(dog); // snickers
+
+let somethingUndefined;
+const somethingNull = null;
+
+const cher = {
+  first: 'cher',
+};
+
+const teller = {
+  first: 'Raymond',
+  last: 'Teller',
+};
+
+teller.first = 'teller';
+teller.last = null;
+
+console.log(cher.last); // undefined
+console.log(teller.last); // null
